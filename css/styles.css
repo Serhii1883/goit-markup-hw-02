@@ -1,0 +1,80 @@
+/* main bg color #FFFFFF */
+/* 2 bg color #2F303A */
+/* 3 bg color #F5F4FA */
+/* logo color #2196F3 */
+/* 2 logo color # #000000 */
+/* main text color #212121 */
+/* 2 text color #757575 */
+/* 3 text color #FFFFFF */
+/* footer contact color rgba(255, 255, 255, 0.6) */
+/* action color #2196F3 */
+
+body {
+    background-color: #FFFFFF;
+}
+
+/* header */
+.header-logo {
+    color: #000000;
+}
+.nav a {
+    color: #212121;
+}
+.footer-contacts a {
+    color: #757575;
+}
+
+/* action button section */
+.slogan {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+.button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+/* benefits section */
+.benefits h3 {
+    color: #212121;
+}
+.benefits p {
+    color: #757575;
+}
+
+/* expertise section */
+.expertise h2 {
+    color: #212121;
+}
+
+/* team section */
+.team {
+    background-color: #F5F4FA;
+}
+.team h2 {
+    color: #212121;
+}
+.team h3 {
+    color: #212121;
+}
+.team p {
+    color: #757575;
+}
+
+/* footer section */
+footer {
+    background-color: #2F303A;
+}
+.footer-logo {
+    color: #FFFFFF;
+}
+.logo-text {
+    color: #2196F3;
+}
+.footer-adr {
+    color: #FFFFFF;
+}
+.footer-mail,
+.footer-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
