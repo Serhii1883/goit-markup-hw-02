@@ -53,8 +53,12 @@ body {
     color: var(--action-color);
 }
 
-.nav-link:visited {
+.nav-link {
     color: var(--main-text-color);
+}
+
+.active-link {
+    color: var(--action-color);
 }
 
 .nav-link {
@@ -99,6 +103,10 @@ body {
 }
 
 /* benefits section */
+.hidden-hd {
+    visibility: hidden;
+}
+
 .benefits .text {
     font-size: 14px;
     line-height: 1.71;
