@@ -1,80 +1,99 @@
-/* main bg color #FFFFFF */
-/* 2 bg color #2F303A */
-/* 3 bg color #F5F4FA */
-/* logo color #2196F3 */
-/* 2 logo color # #000000 */
-/* main text color #212121 */
-/* 2 text color #757575 */
-/* 3 text color #FFFFFF */
-/* footer contact color rgba(255, 255, 255, 0.6) */
-/* action color #2196F3 */
+:root {
+    --logo-text-color: #2196F3;
+    --header-logo: #000000;
+    --footer-logo: #FFFFFF;
+    --main-bg-color: #FFFFFF;
+    --slogan-bg-color: #2F303A;
+    --team-bg-color: #F5F4FA;
+    --footer-bg-color: #2F303A;
+    --action-color: #2196F3;
+    --main-text-color: #212121;
+    --text-color: #757575;
+    --bright-text: #FFFFFF;
+    --footer-contacts: rgba(255, 255, 255, 0.6);
+    --portfolio-button-color: #F5F4FA;
+}
 
 body {
-    background-color: #FFFFFF;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+
+.list-none {
+    list-style: none;
 }
 
 /* header */
 .header-logo {
-    color: #000000;
+    color: var(--header-logo);
 }
-.nav a {
-    color: #212121;
-}
-.footer-contacts a {
-    color: #757575;
+.logo-text {
+    color: var(--logo-text-color);
 }
 
-/* action button section */
+/* all links hover focus */
+.nav .link:hover,
+.nav .link:focus,
+.header-contacts .link:hover,
+.header-contacts .link:focus,
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--action-color);
+}
+.header-contacts .link {
+    color: var(--text-color);
+}
+
+/* main page action button section */
 .slogan {
-    background-color: #2F303A;
-    color: #FFFFFF;
+    background-color: var(--slogan-bg-color);
+    color: var(--bright-text);
 }
 .button {
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--action-color);
+    color: var(--bright-text);
+    cursor: pointer;
+}
+
+/* portfolio page filter */
+.portfolio-button {
+    background-color: var(--portfolio-button-color);
+    cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background-color: var(--action-color);
+    color: var(--bright-text)
 }
 
 /* benefits section */
-.benefits h3 {
-    color: #212121;
-}
-.benefits p {
-    color: #757575;
+.benefits .text {
+    color: var(--text-color);
 }
 
 /* expertise section */
-.expertise h2 {
-    color: #212121;
-}
 
-/* team section */
+
+/* both page card section */
 .team {
-    background-color: #F5F4FA;
+    background-color: var(--team-bg-color);
 }
-.team h2 {
-    color: #212121;
-}
-.team h3 {
-    color: #212121;
-}
-.team p {
-    color: #757575;
+.job-title,
+.portfolio-result {
+    color: var(--text-color);
 }
 
 /* footer section */
-footer {
-    background-color: #2F303A;
+.footer {
+    background-color: var(--footer-bg-color);
 }
 .footer-logo {
-    color: #FFFFFF;
+    color: var(--footer-logo);
 }
-.logo-text {
-    color: #2196F3;
-}
-.footer-adr {
-    color: #FFFFFF;
+.footer-address {
+    color: var(--bright-text);
 }
 .footer-mail,
 .footer-tel {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-contacts);
 }
