@@ -46,10 +46,10 @@ body {
 }
 
 /* header links hover focus */
-.nav .nav-link:hover,
-.nav .nav-link:focus,
-.header-contacts .hd-link:hover,
-.header-contacts .hd-link:focus {
+.nav-link:hover,
+.nav-link:focus,
+.hd-link:hover,
+.hd-link:focus {
     color: var(--action-color);
 }
 
